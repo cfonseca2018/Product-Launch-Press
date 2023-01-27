@@ -1,84 +1,164 @@
-# [Start Bootstrap - Clean Blog](https://startbootstrap.com/theme/clean-blog/)
-
-[Clean Blog](https://startbootstrap.com/theme/clean-blog/) is a stylish, responsive blog theme for [Bootstrap](https://getbootstrap.com/) created by [Start Bootstrap](https://startbootstrap.com/). This theme features a blog homepage, about page, contact page, and an example post page along with a working PHP contact form.
-
-## Preview
-
-[![Clean Blog Preview](https://assets.startbootstrap.com/img/screenshots/themes/clean-blog.png)](https://startbootstrap.github.io/startbootstrap-clean-blog/)
-
-**[View Live Preview](https://startbootstrap.github.io/startbootstrap-clean-blog/)**
-
-## Status
-
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/StartBootstrap/startbootstrap-clean-blog/master/LICENSE)
-[![npm version](https://img.shields.io/npm/v/startbootstrap-clean-blog.svg)](https://www.npmjs.com/package/startbootstrap-clean-blog)
-[![dependencies Status](https://david-dm.org/StartBootstrap/startbootstrap-clean-blog/status.svg)](https://david-dm.org/StartBootstrap/startbootstrap-clean-blog)
-[![devDependencies Status](https://david-dm.org/StartBootstrap/startbootstrap-clean-blog/dev-status.svg)](https://david-dm.org/StartBootstrap/startbootstrap-clean-blog?type=dev)
-
-## Download and Installation
-
-To begin using this template, choose one of the following options to get started:
-
-* [Download the latest release on Start Bootstrap](https://startbootstrap.com/theme/clean-blog/)
-* Install via npm: `npm i startbootstrap-clean-blog`
-* Clone the repo: `git clone https://github.com/StartBootstrap/startbootstrap-clean-blog.git`
-* [Fork, Clone, or Download on GitHub](https://github.com/StartBootstrap/startbootstrap-clean-blog)
-
-## Usage
-
-### Basic Usage
-
-After downloading, simply edit the HTML and CSS files included with `dist` directory. These are the only files you need to worry about, you can ignore everything else! To preview the changes you make to the code, you can open the `index.html` file in your web browser.
-
-### Advanced Usage
-
-Clone the source files of the theme and navigate into the theme's root directory. Run `npm install` and then run `npm start` which will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved. You can view the `package.json` file to see which scripts are included.
-
-### Contact Form
-
-The contact form available with this theme is prebuilt to use [SB Forms](https://startbootstrap.com/solution/contact-forms).
-SB Forms is a simple form solution for adding functional forms to your theme. Since this theme is prebuilt using our
-SB Forms markup, all you need to do is sign up for [SB Forms on Start Bootstrap](https://startbootstrap.com/solution/contact-forms).
-
-After signing up you will need to set the domain name your form will be used on, and you will then see your
-access key. Copy this and paste it into the `data-sb-form-api-token='API_TOKEN'` data attribute in place of
-`API_TOKEN`. That's it! Your forms will be up and running!
-
-If you aren't using SB Forms, simply delete the custom data attributes from the form, and remove the link above the
-closing `</body>` tag to SB Forms.
-
-#### npm Scripts
-
-* `npm run build` builds the project - this builds assets, HTML, JS, and CSS into `dist`
-* `npm run build:assets` copies the files in the `src/assets/` directory into `dist`
-* `npm run build:pug` compiles the Pug located in the `src/pug/` directory into `dist`
-* `npm run build:scripts` brings the `src/js/scripts.js` file into `dist`
-* `npm run build:scss` compiles the SCSS files located in the `src/scss/` directory into `dist`
-* `npm run clean` deletes the `dist` directory to prepare for rebuilding the project
-* `npm run start:debug` runs the project in debug mode
-* `npm start` or `npm run start` runs the project, launches a live preview in your default browser, and watches for changes made to files in `src`
-
-You must have npm installed in order to use this build environment.
-
-## Bugs and Issues
-
-Have a bug or an issue with this template? [Open a new issue](https://github.com/StartBootstrap/startbootstrap-clean-blog/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](https://startbootstrap.com/theme/clean-blog/).
-
-## About
-
-Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
-
-* <https://startbootstrap.com>
-* <https://twitter.com/SBootstrap>
-
-Start Bootstrap was created by and is maintained by **[David Miller](https://davidmiller.io/)**, Owner of [Blackrock Digital](https://startbootstrap.io/).
-
-* <https://davidmiller.io>
-* <https://twitter.com/davidmillerhere>
-* <https://github.com/davidtmiller>
-
-Start Bootstrap is based on the [Bootstrap](https://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
-
-## Copyright and License
-
-Copyright 2013-2022 Start Bootstrap LLC. Code released under the [MIT](https://github.com/StartBootstrap/startbootstrap-clean-blog/blob/master/LICENSE) license.
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Product Press Release for Encrypted Bidding</title>
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
+            <div class="container px-4 px-lg-5">
+                <a class="navbar-brand" href="index.html">Product Press Release</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto py-4 py-lg-0">
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="#contact">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="#headline">Headline</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="#features">Features</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="#about">About</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Page Header-->
+        <header class="masthead" style="background-image: url('assets/img/home-bg.jpg')">
+            <div class="container position-relative px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <div class="site-heading">
+                            <h1>Encrypted Bidding</h1>
+                            <span class="subheading">FOR IMMEDIATE RELEASE</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Main Content-->
+        <div class="container px-4 px-lg-5">
+            <div class="row gx-4 gx-lg-5 justify-content-center">
+                <div class="col-md-10 col-lg-8 col-xl-7">
+                    <!-- Post preview-->
+                    <div class="post-preview">
+                        <section id="contact" class="contact"></section>
+                        <h2 class="post-title">Contact Information</h2>
+                        <p class="post-meta">
+                            Carlos Fonseca<br>
+                            FAU<br>
+                            cfonseca2018@fau.edu<br>
+                            <br>             
+                            Alexander Berry<br>
+                            FAU<br>
+                            aberry2017@fau.edu<br>
+                            <br>                            
+                            Fallon Falcone<br>
+                            FAU<br>
+                            ffalcone2019@fau.edu<br>
+                            <br>                        
+                            Georges Borque<br>
+                            FAU<br>
+                            gbourque2015@fau.edu<br>
+                            <br>
+                            Wyatt Roe<br>
+                            FAU<br>
+                            wroe2020@fau.edu<br>
+                        </p>
+                    </div>
+                    <!-- Divider-->
+                    <hr class="my-4" />
+                    <!-- Post preview-->
+                    <div class="post-preview">
+                        <section id="headline" class="headline"></section>
+                        <h2 class="post-title">FAU Students Introduce Encrypted Bidding</h2>
+                        <p class="post-meta">
+                            <strong>Improved implementation involving multi-party computation 
+                            in online auctions allows for increased security to ensure 
+                            privacy and ease of use</strong>
+                            <br>
+                            <br>
+                            MIAMI, FL - January 26, 2023 - With the alarming increase in exploitation
+                            evident in traditional auctioning environments, (our product) aims to 
+                            modernize the dated structure of conventional auctions by increasing 
+                            trader security while maintaining ease of access for our customers.
+                        </p>
+                    </div>
+                    <!-- Divider-->
+                    <hr class="my-4" />
+                    <!-- Post preview-->
+                    <div class="post-preview">
+                        <section id="features" class="features"></section>
+                        <h2 class="post-title">Key Features - What does it do?</h2>
+                        <ul>
+                            <li>Secure bidding via the use of secret sharing</li>
+                            <li>Anonymous accounts</li>
+                            <li>Fast response, bidders are informed of a winner and the highest bid</li>
+                            <li>Browsing auctions</li>
+                            <li>Hosting auctions</li>
+                        </ul>
+                        <p class="post-meta">
+                        The encrypted bidding application will be free to use for everyone. 
+                        The goal is to establish a marketplace that uses a bidding system where 
+                        the users can buy and sell goods. As of now, the application will be 
+                        made for Windows devices. But there may be plans in the future to make it 
+                        available to MacOS users.
+                        </p>
+                        <strong>Product tiers:</strong>
+                        <ul>
+                            <li>The auction hosting feature will be available for free</li>
+                            <li>Multi-party auction hosting will be available for free</li>
+                            <li>All types of accounts will be available for free</li>
+                        </ul>
+                    </div>
+                    <!-- Divider-->
+                    <hr class="my-4" />
+                    <!-- Post preview-->
+                    <div class="post-preview">
+                        <section id="about" class="about"></section>
+                        <h3 class="post-subtitle">About Our Team</h3>
+                        <p class="post-meta">
+                            With our product, we look to give our users the peace of mind
+                            they deserve when bidding online.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer-->
+        <footer class="border-top">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <ul class="list-inline text-center">
+                            <li class="list-inline-item">
+                                <a href="https://github.com/0-Alex-B/Crypto-SPDZ_2022">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fas fa-circle fa-stack-2x"></i>
+                                        <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="small text-center text-muted fst-italic">Copyright &copy; Encrypted Bidding 2023</div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
