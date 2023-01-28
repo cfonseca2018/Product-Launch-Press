@@ -76,6 +76,18 @@
   }
 }
 
+.profile
+{
+  margin-top: 25px;
+}
+.profile .img-box
+{
+  opacity: 1;
+  display: block;
+  position: relative;
+}
+
+
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);
